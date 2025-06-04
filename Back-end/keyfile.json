@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "deepfake-detective",
+  "private_key_id": "600adabef50068844a5249da9e37158b8cbf8651",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5lGlczeWLxUVM\nYtC/xDFRuFoDsbLRQjHxsvQFETFxnpOg3d0Yi3yZt/LL1A+BDIaLjdKW0Srl5q7v\nXyoyHlRSEN6+9kbdATZ5sIKWNx9OOcbkcJm6JJkoBms3cmvFWhLmwzBJOkibnd/t\nMFVFyPozk7aBTUa3XpLS+HH928FNhe3KEFtSNNtVZG59oTg453l8oTgHrgeEx1SW\n6hBWdlgqGeEx3Rxw8PhuJQrBc/kPRz9ONlQIk5uINZy8/LZpSCZIXfsnK1e6CogC\ntwNK1ew1IVAdjHggjd4m7JtkouLweRZDiaxn1Lmd9oRNZAA35bKtVkP2dnJ3Zufs\nEyFptz47AgMBAAECggEAA7FIR2hxYM6UCmkM7kPhF1crs1cdz7wZck21PUSST0hw\nd4ryk0JzQDvAwP1/MXomUzCHOCkBSYHFiU3DcSvZUai0RehwkIUtqE4yyvpdzRip\nNHJpHKMNyRYXnArSyiJ4rc7EbzCRsUb65aVIjRLqp4wQ3ZHEDnH7SedXnU16EyjG\nXdsAK+qkY76/CiZLX93JR1YlvIGPrYnPu1PywV3FLQvnTd+qckq4YBdmKNx0+n7d\nqWFR/tR4bb5OtribtqWExgTdXCfcyAHWNh87S58RcSueZ2bs4GBuBIMdf2WSxCYa\n0ygmHqWC3NalwacevDAuGlVfmTxSViC7hdO6I/MHQQKBgQDcBi6AFN5tqJxR3E/J\n6ho+3AKFylSLYNhL0noMuxIcGrhpzR9hNt2sVKCCkxHVHKPtEWBGU+J8N1JXhdGN\nS+PdFQqH4rDTF2aT7LNmEPOI7+6kM2mGcacmDaTQkIl76We1tN/LixHWDGHi9aGE\ngAmdXqrl3D1Yq7rjrJol/Ai5vwKBgQDX7HK8CocOMBepzdEhtjrxYFcGh02rbwcg\n4yBKzx3Yj/Q+gTaZ3GYDTWPkyuzF65nd9+6FCc2JrcxoWdqVoROEL9z+2KfhUtBH\nVVaTPiHJTzLBTy0ZFYQW7qczj/Zs+MMNEgGUJEs7Du2kbMpCh2KzcIoBtoI3J7tl\n56s/BpTChQKBgBDkyJ08/PcegyIl8FpohytcaTUsm+E3xmPL/WMM2g8eXhqBjW9B\nbzPUK57a+/uI/20scF/2AOXYuZHOzJA0y4ImI3DbjwgmO9IP0pZ7prdU9NXWvLt9\n7n+VfJom/udsvHHPOX+/ZdcxjDKI+aXazuIuaqDLkEpGpUrl7dAM0f6xAoGBAJ9I\nDGdMuM4tifc4HdLpk9elgu0M+K3DLJYFFjg5S0ILB1johre/jv1WpJ8NVta18v58\nO9amIZozvDsqNYX1mekESdkxR75/Eafdew0JY3EWXFGfr5v2dEdaa7ssstM2OuS0\naLe4gkqhu4p0ukuTharrFNMoqCw5whLtcDUBDNHlAoGAKNls8M5KlGurOOpsOlOC\nCLjRhPXUgquW9AY4k89SyW6rcuXR/4N7n55i5gEvAYuR6ufcWtwpicB5MK48N1tn\nrUEvNiRgSGusVeG8LIsim4qcudie02EC2faUrxclDfGOOWzKe2htHU65Z5xhIhYS\npb9XwUCnLAowI342dPzyPy0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ai-generated-image-storage@deepfake-detective.iam.gserviceaccount.com",
+  "client_id": "105409999177130273480",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ai-generated-image-storage%40deepfake-detective.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
