@@ -1,0 +1,60 @@
+/* BlogPost.css */
+
+.blog-post {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f7f7f7; /* Light gray background */
+}
+
+.blog-post h2 {
+  color: #21245a; /* Dark blue heading color */
+}
+
+.blog-post h3 {
+  color: #51286a; /* Purple heading color */
+}
+
+.blog-post p {
+  color: #333; /* Body text color */
+}
+
+.blog-post ul {
+  list-style-type: disc; /* Use bullet points for unordered lists */
+  margin-left: 20px; /* Add left margin to the list */
+}
+
+.blog-post ul li {
+  color: #333; /* List item text color */
+}
+
+/* Author details styles */
+.author-details {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 20px;
+  margin-top: 20px; /* Add some space between the content and author details */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.author-details p {
+  margin: 0; /* Remove default margin */
+  font-size: 16px; /* Set font size */
+}
+
+.author-details p:first-child {
+  margin-bottom: 10px; /* Add space below the first paragraph */
+}
+
+/* Style the upload button */
+input[type="file"] {
+    background-color: #fff;
+    color: #21245a;
+    border: 2px solid #21245a; /* Dark blue border */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: border-color 0.3s ease; /* Add smooth transition */
+}
+
+input[type="file"]:hover {
+    border-color: #36087a; /* Dark purple border on hover */
+}

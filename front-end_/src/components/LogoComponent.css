@@ -1,0 +1,22 @@
+/* LogoComponent.css */
+
+.logo-container {
+    max-width: 200px; /* Adjust as needed */
+    margin: 0 auto; /* Center the logo horizontally */
+    padding: 1px;
+    
+  }
+  
+  .logo-img {
+    width: 100%;
+    height: auto;
+  }
+  
+ /* LogoComponent.css */
+.logo {
+    max-width: 100px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust margin */
+    padding: 6px;
+    margin-left: 10px;
+  }
+  

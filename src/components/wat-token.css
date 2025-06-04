@@ -1,0 +1,17 @@
+/* Add these styles to your CSS file */
+
+/* Style for the image in the WAT token section */
+.wat-token-right img {
+    max-width: 76%; /* Ensure the image doesn't exceed its container's width */
+    height: auto;
+    margin-left: 10%; /* Maintain aspect ratio */
+  }
+  /* Adjust the layout of the WAT token section */
+  .wat-token-content {
+    display: flex; /* Use flexbox to maintain left and right flow structure */
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center; /* Align items vertically */
+    margin-top: 50px; /* Adjust margin as needed */
+    padding: 5px;
+  }
+  

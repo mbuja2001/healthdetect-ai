@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "../src/components/assets/ChatGPT Image May 18, 2025, 05_35_16 AM.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "../src/components/assets/ChatGPT Image May 18, 2025, 05_35_16 AM.png",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
