@@ -1,0 +1,21 @@
+/* src/components/FadeInSection.css */
+#new-wat-token-image {
+ flex-wrap: wrap;
+ padding: -8%;
+ margin-top: -199px;
+ max-width: 55%;
+ max-height: -30%;
+ margin: -1.1%;
+  margin-left:23%;
+  margin-top: -3.3%;
+  }
+  
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .features-image {
+  max-width: 50%;
+   
+  }

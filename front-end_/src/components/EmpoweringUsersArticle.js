@@ -35,16 +35,7 @@ const EmpoweringUsersArticle = () => {
         <p>&copy; 2024 Web-Detective.ai. All rights reserved.</p>
         <div className="social-media">
         
-          <ul>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
-            <li><a href="https://twitter.com/">Twitter</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
-            <li><a href="https://www.tiktok.com/">TikTok</a></li>
-            <li><a href="https://www.youtube.com/">YouTube</a></li>
-            <li><a href="https://discord.com/">Discord</a></li>
-
-          </ul>
+          
         </div>
         </section>
     </div>

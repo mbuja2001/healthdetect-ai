@@ -6,7 +6,7 @@ import './AIGeneratedImageDetector.css'; // Import CSS file for component stylin
 const Blog = () => {
   return (
     <div className="blog">
-        <h2>Featured Articles</h2>
+        <h2>Latest Articles</h2>
         <section className='article'>
             <h3>
               <Link to="/data-privacy" >Upholding Data Privacy: A Core Belief of Web-Detective.ai</Link>
@@ -47,14 +47,7 @@ const Blog = () => {
         <p>&copy; 2024 Web-Detective.ai. All rights reserved.</p>
         <div className="social-media">
         
-        <ul>
-          <li><a href="https://web.facebook.com/profile.php?id=61559479599786&sk=about">Facebook</a></li>
-          <li><a href="https://www.instagram.com/webdetective.ai/">Instagram</a></li>
-          <li><a href="https://www.linkedin.com/in/web-detectiveai-a59917309/">LinkedIn</a></li>
-          <li><a href="https://tiktok.com/@webdetective_ai">TikTok</a></li>
-          <li><a href="https://www.youtube.com/channel/UC_aWUSSenznFi6JcSozhD_Q">YouTube</a></li>
-          <li><a href="https://discord.com/channels/1239916904429129768/1239916904429129771">Discord</a></li>
-        </ul>
+        
         </div>
         </section>
     </div>

@@ -6,8 +6,8 @@ const Features = () => {
   return (
     <div>
       <section>
-        <h2>Features of Web-Detective.ai</h2>
-        <p>Detailed descriptions of key features, including the AI image detection feature.</p>
+        <h2> The Features We Offer</h2>
+        
       </section>
 
       <section className="article">
@@ -53,14 +53,7 @@ const Features = () => {
         <p>&copy; 2024 Web-Detective.ai. All rights reserved.</p>
         <div className="social-media">
         
-        <ul>
-          <li><a href="https://web.facebook.com/profile.php?id=61559479599786&sk=about">Facebook</a></li>
-          <li><a href="https://www.instagram.com/webdetective.ai/">Instagram</a></li>
-          <li><a href="https://www.linkedin.com/in/web-detectiveai-a59917309/">LinkedIn</a></li>
-          <li><a href="https://tiktok.com/@webdetective_ai">TikTok</a></li>
-          <li><a href="https://www.youtube.com/channel/UC_aWUSSenznFi6JcSozhD_Q">YouTube</a></li>
-          <li><a href="https://discord.com/channels/1239916904429129768/1239916904429129771">Discord</a></li>
-        </ul>
+        
         </div>
         </section>
     </div>
