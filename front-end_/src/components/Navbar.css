@@ -1,0 +1,104 @@
+/* Navbar.css */
+.navbar {
+  background-color: #21245a;
+  color: #fff;
+  padding: 1px 0;
+  position: fixed; /* Changed from absolute to fixed for better responsiveness */
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Adjusted for better spacing */
+  align-items: center;
+  padding: 0 10px; /* Added padding for spacing */
+}
+
+.navbar-logo {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 450px;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for menu */
+}
+
+.navbar-links li {
+  padding: 10px 20px; /* Added padding for better touch targets */
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links li a:hover {
+  text-decoration: underline;
+}
+
+.burger-menu {
+  display: none; /* Hide burger menu by default */
+  cursor: pointer; /* Indicates the menu can be interacted with */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar-links {
+    position: absolute;
+    right: 0;
+    top: 60px; /* Position below the navbar */
+    flex-direction: column;
+    width: 100%;
+    display: none; /* Hide the links initially */
+    background-color: #21245a; /* Match navbar color */
+  }
+
+  .navbar-links.open {
+    display: flex; /* Show the links when the menu is open */
+  }
+
+  .burger-menu {
+    display: block; /* Show the burger menu */
+    position: absolute;
+    top: 15px;
+    right: 10px;
+  }
+
+  .line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for burger lines */
+  }
+
+  .line1-open {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .line2-open {
+    opacity: 0;
+  }
+
+  .line3-open {
+    transform: rotate(-45deg) translate(7px, -6px);
+  }
+}
+
+/* Hide the burger menu on larger screens */
+@media (min-width: 769px) {
+  .burger-menu {
+    display: none;
+  }
+}

@@ -1,0 +1,235 @@
+/* AIGeneratedImageDetector.css */
+
+/* Root container styles */
+.ai-detector {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #21245a;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background: linear-gradient(135deg, #25264c, #2e087a);
+    color: #fff;
+    padding: 50px;
+    text-align: center; /* Center-align the content */
+    font-size: medium;
+    margin-top: 70px;
+  }
+  
+  /* AI image detector form styles */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #21245a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  input {
+    background-color: #fff;
+    color: #21245a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+
+  /* Problem-solving section styles */
+  .problem-solving {
+    padding: 50px 20px; /* Add padding to the top and bottom */
+    background-color: #f7f7f7; /* Light gray background */
+  }
+
+  /* Features section styles */
+  .features {
+    padding: 50px 20px; /* Add padding to the top and bottom */
+  }
+
+  .features h2 {
+    color: #21245a; /* Dark blue heading color */
+  }
+
+  .features ul {
+    list-style-type: disc; /* Use bullet points for feature list */
+    margin-left: 20px; /* Add left margin to the list */
+  }
+
+  /* Impact section styles */
+  .impact {
+    padding: 50px 20px; /* Add padding to the top and bottom */
+    background-color: #f7f7f7; /* Light gray background */
+  }
+
+  /* Future directions section styles */
+  .future-directions {
+    padding: 50px 20px; /* Add padding to the top and bottom */
+  }
+
+  .article {
+    padding: 50px 20px; /* Add padding to the top and bottom */
+  }
+
+
+/* Footer styles */
+.footsection {
+    background: #21245a;
+    color: #fff;
+    padding: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    bottom: 0;
+    left: 0;
+   
+    
+    
+  }
+  
+  .footsection p {
+    margin: 0;
+    margin-left: 2px;
+    margin-right: 30px;
+    padding: 10px;
+  }
+  
+  .footsection ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-left: 590px;
+    margin-top: -28px;
+  }
+  
+  .footsection ul li {
+    margin-right: 20px;
+  }
+  
+  .footsection ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footsection ul li a:hover {
+    text-decoration: underline;
+  }
+  /* AIGeneratedImageDetector.css */
+
+/* Define animation for gradient transition */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  /* Add smooth hover animation to sections */
+  
+  .problem-solving:hover,
+  .features:hover,
+  .impact:hover,
+  .future-directions:hover,
+  .article:hover
+  {
+    background: linear-gradient(to right, #e1e1e5, #36087a);
+    background-size: 200% auto;
+    animation: gradientAnimation 3s ease infinite;
+  }
+  
+  /* Stop animation on non-hover */
+  .hero:not(:hover),
+  .problem-solving:not(:hover),
+  .features:not(:hover),
+  .impact:not(:hover),
+  .future-directions:not(:hover),
+  .article:not(:hover)
+  {
+    
+    background-size: auto auto;
+  }
+  /* AIGeneratedImageDetector.css */
+
+/* AIGeneratedImageDetector.css */
+
+/* Style the upload button */
+.File-Upload {
+    background-color: #fff;
+    color: #21245a;
+    border: 2px solid #21245a; /* Dark blue border */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: border-color 0.3s ease; /* Add smooth transition */
+}
+
+.File-Upload:hover {
+    border-color: #36087a; /* Dark purple border on hover */
+}
+
+/* AIGeneratedImageDetector.css */
+
+/* Styles for the file upload button */
+#fileUpload {
+    display: none; /* Hide the default file input */
+  }
+  
+  #fileUploadLabel {
+    background-color: #fff;
+    color: #21245a;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #fileUploadLabel:hover {
+    background-color: #ddd;
+  }
+  
+  /* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .footsection {
+    font-size: 14px;
+  }
+}
