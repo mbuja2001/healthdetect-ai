@@ -1,0 +1,56 @@
+/* foot.css */
+.footsection {
+  background-color: #21245a;
+  color: #fff;
+  padding: 20px 10px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footsection .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.footsection ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footsection ul li {
+  padding: 10px;
+}
+
+.footsection ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footsection ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footsection .social-media {
+    flex-direction: column-reverse; /* Stack the links above the copyright text */
+  }
+
+  .footsection ul {
+    width: 100%; /* Ensure the list takes full width */
+    justify-content: space-around;
+  }
+
+  .footsection ul li {
+    width: 100%; /* Full width for each link to stack them */
+    text-align: center; /* Center the text for each link */
+  }
+}
